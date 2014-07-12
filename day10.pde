@@ -151,3 +151,9 @@ void stop()
   super.stop();
 }
 
+void keyPressed(){
+ if(key == 's'){
+   saveFrame("frame#####" + ".png");
+ } 
+}
+
